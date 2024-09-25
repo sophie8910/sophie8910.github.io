@@ -272,6 +272,19 @@ defaults:
       author_profile: true
       share: true
       comment: true
+    
+  - scope:
+     path: "project-name" # The name of your project's folder or file
+      type: project # You can use 'project' or keep it as 'portfolio' based on your structure
+    values:
+      layout: single
+      title: "Project Title"
+      description: "A brief description of your project."
+      project_url: "https://github.com/sophie8910/githubDemo.git"
+      author_profile: true
+      share: true
+      comment: true
+
   # _talks
   - scope:
       path: ""
